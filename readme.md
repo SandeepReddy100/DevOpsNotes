@@ -70,3 +70,21 @@ It is designed to be easily readable for anyone looking to learn these technolog
 
 ---
 *Feel free to star ⭐ this repository if you find these notes helpful!*
+
+## Repository Structure
+
+```text
+devops-roadmap-notes/
+├── README.md                     # Overview of the learning path
+├── 01-Linux-and-Networking/      # Linux basics, Vagrant, Networking, VProfile
+├── 02-Bash-and-Scripting/        # YAML, JSON, Bash, GitHub Copilot
+├── 03-AWS-Cloud-Intro/           # EC2, IAM, S3, Lift & Shift AWS Projects
+├── 04-CICD-and-Version-Control/  # Git, Maven, Jenkins, GitHub Actions
+├── 05-Python-Automation/         # Python Scripting & Amazon Q
+├── 06-Terraform-IaC/             # Terraform Modules, State, VPC Setup
+├── 07-Monitoring-Observability/  # Prometheus, Grafana, Loki, PromQL
+├── 08-Ansible-Config-Management/ # Playbooks, Roles, AWS Automation
+├── 09-AWS-Advanced-CICD/         # VPC Deep Dive, Lambda, Beanstalk
+├── 10-GCP-Infrastructure/        # GCP VMs, Cloud SQL, Load Balancers
+├── 11-Docker-and-Kubernetes/     # Containers, Helm, K8s VProfile Deployment
+└── 12-GitOps-Project/            # Final GitOps Implementation
