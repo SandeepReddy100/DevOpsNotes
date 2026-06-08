@@ -16,11 +16,11 @@
 ### Essential Vagrant Commands
 First, create a dedicated folder for your OS, navigate into it (`cd`), and run the following commands in Git Bash[cite: 114, 115, 116, 117, 120]:
 
-* `vagrant init`: Initializes a new Vagrant environment and creates a Vagrantfile[cite: 121].
-* `vagrant up`: Starts and provisions the VM[cite: 122].
-* `vagrant halt`: Stops the running VM[cite: 124].
-* `vagrant reload`: Restarts the VM, applying any new changes made to the configuration[cite: 123].
-* `vagrant destroy`: Deletes the VM entirely[cite: 125].
-* `vagrant box list`: Lists all downloaded Vagrant boxes[cite: 126].
-* `vagrant ssh`: Connects you securely to the VM's command line[cite: 128].
-* `exit`: Exits the Vagrant SSH session[cite: 129].
+* `vagrant init`: Initializes a new Vagrant environment and creates a Vagrantfile.
+* `vagrant up`: Starts and provisions the VM.
+* `vagrant halt`: Stops the running VM.
+* `vagrant reload`: Restarts the VM, applying any new changes made to the configuration.
+* `vagrant destroy`: Deletes the VM entirely.
+* `vagrant box list`: Lists all downloaded Vagrant boxes.
+* `vagrant ssh`: Connects you securely to the VM's command line.
+* `exit`: Exits the Vagrant SSH session.
