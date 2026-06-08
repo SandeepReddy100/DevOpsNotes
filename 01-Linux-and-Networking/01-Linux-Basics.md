@@ -18,15 +18,15 @@ Linux is widely used because it is open-source , highly secure , and built for a
 * `pwd` : Print working directory.
 
 ## File & Directory Operations
-* **Read:** `cat <filepath>` reads the content of a file. `less` or `more` can be used to read large files interactively[cite: 229, 230].
+* **Read:** `cat <filepath>` reads the content of a file. `less` or `more` can be used to read large files interactively.
 * **Create:** `mkdir` makes a directory, and `touch` creates an empty file.
-* **Copy:** `cp <source> <destination>` copies files. Use `cp -r` for directories[cite: 181, 185].
-* **Move/Rename:** `mv <source> <destination>` moves or renames files and directories[cite: 189, 191, 192].
-* **Remove:** `rm` removes files. Use `rm -r` to recursively remove directories[cite: 190, 196].
+* **Copy:** `cp <source> <destination>` copies files. Use `cp -r` for directories.
+* **Move/Rename:** `mv <source> <destination>` moves or renames files and directories.
+* **Remove:** `rm` removes files. Use `rm -r` to recursively remove directories.
 
 ## Filters, Piping & Redirection
-* **Grep:** `grep <text> <path>` searches for text. Use `-i` to ignore case, and `-v` to exclude text[cite: 222, 224, 228].
-* **Head/Tail:** `head -n` reads the top lines, while `tail -n` reads the bottom lines (useful for log files)[cite: 233, 237, 238].
+* **Grep:** `grep <text> <path>` searches for text. Use `-i` to ignore case, and `-v` to exclude text.
+* **Head/Tail:** `head -n` reads the top lines, while `tail -n` reads the bottom lines (useful for log files).
 * **Redirection:** * `>` overwrites a file with command output.
   * `>>` appends command output to a file.
-* **Piping (`|`):** Takes the standard output of one command and uses it as the input for another[cite: 275, 277]. Example: `ls | wc -l` counts the number of files[cite: 279, 280].
+* **Piping (`|`):** Takes the standard output of one command and uses it as the input for another. Example: `ls | wc -l` counts the number of files.
