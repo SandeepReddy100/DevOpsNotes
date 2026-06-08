@@ -35,8 +35,6 @@ The following flowchart illustrates the step-by-step progression and interaction
 
 ```mermaid
 graph TD
-    %% Tooltips and interactions are natively supported by GitHub's Mermaid rendering
-    
     subgraph Phase 1: Core Fundamentals
         S1[Step 1: Linux & Networking] -->|Automates System Tasks| S2[Step 2: Scripting & Automation]
     end
@@ -62,12 +60,6 @@ graph TD
         S10 -->|Packages Apps into| S11[Step 11: Docker & Kubernetes]
         S11 -->|Automates Reconciliations via| S12[Step 12: GitOps Project]
     end
-
-    %% Visual Styling
-    style S1 fill:#f9f,stroke:#333,stroke-width:2px
-    style S6 fill:#bbf,stroke:#333,stroke-width:2px
-    style S11 fill:#bfb,stroke:#333,stroke-width:2px
-    style S12 fill:#fbb,stroke:#333,stroke-width:3px
 ```
 
 ---
